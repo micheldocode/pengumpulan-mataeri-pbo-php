@@ -12,14 +12,21 @@
         require 'User.php';
 
         //Melakukan instansiasi class-objek
-        $user = new User();
+        $user = new User(2, "Rizky", "rizky@gmail.com", "Jakarta", "admin");
+
+        //Memberi nilai / Assignment value
+        $user->id = 2;
+        $user->name = "Rizky";
+        $user->email = "rizky@gmail.com";
+        $user->address = "Jakarta";
+        $user->role = "admin";
     ?>
     <ul>
-        <li> <?php var_dump($user); ?></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li> <?php echo $user -> id; ?> </li>
+        <li> <?php echo $user -> name; ?> </li>
+        <li> <?php echo $user -> email; ?> </li>
+        <li> <?php echo $user -> address; ?> </li>
+        <li> <?php echo $user -> role; ?> </li>
     </ul>
 </body>
 </html>
