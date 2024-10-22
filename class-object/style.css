@@ -1,3 +1,10 @@
+body {
+    background-color: #1a1a1a; /* Dark background */
+    color: #e0e0e0; /* Light text color */
+    font-family: Arial, sans-serif;
+}
+
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -13,7 +20,7 @@ th, td {
 }
 
 h1 {
-    color: #333;
+    color: #e0e0e0;
     font-family: Arial, sans-serif;
     text-align: center; 
 }
