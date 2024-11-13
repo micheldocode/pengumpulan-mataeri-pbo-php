@@ -1,6 +1,5 @@
 ## Tentang isi Repo ini
  Class Objek
-
  Interface
  Constructor
  Inheritance
