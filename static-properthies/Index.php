@@ -10,7 +10,7 @@
         class ParentClass 
         {
             // deklarasi properti global
-            public static $judul = " hy, saya properti static dari" . __CLASS__;
+            public static $judul = " hy saya abg ganteng di sekolah ini" . __CLASS__;
 
             public static function display()
             {
@@ -20,7 +20,7 @@
 
         class ChildClass extends ParentClass
         {
-            public static $judul = " hy, saya properti static dari" . __CLASS__;
+            public static $judul = " hy saya abg ganteng di sekolah ini" . __CLASS__;
 
             public static function display()
             {

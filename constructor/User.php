@@ -13,14 +13,14 @@
         $listUser = [  // membuat array 2 dimensi sebagai tempat memberi nilai list dataUser
             [
                 'id'        => 1,
-                'name'      => 'Hasudungan',
+                'name'      => 'wenzler',
                 'email'     => 'admin@example.com',
                 'address'   => 'Batam',
                 'role'      => 'admin'
             ],
             [
                 'id'        => 2,
-                'name'      => 'Asep',
+                'name'      => 'asoy',
                 'email'     => 'testUser@example.com',
                 'address'   => 'Bandung',
                 'role'      => 'user'

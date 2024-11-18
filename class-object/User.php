@@ -11,7 +11,7 @@
         $user2  = new User();
 
         $user1->id = 1;
-        $user1->user_name = "Hasudungan";
+        $user1->user_name = "Owen";
         $user1->email = "example@example.com";
         $user1->address = "Bandung-Barat";
         $user1->role = "admin";

@@ -4,9 +4,9 @@ require_once 'ChildClass.php';
 
 // Contoh membuat beberapa objek ChildClass
 $users = [
-    new ChildClass(1, "John Doe", "john.doe@example.com", "123 Main St", "Admin", 81245546776),
-    new ChildClass(2, "Jane Smith", "jane.smith@example.com", "456 Elm St", "User", 81245546776),
-    new ChildClass(3, "Alice Johnson", "alice.johnson@example.com", "789 Maple St", "Moderator", 81245546776),
+    new ChildClass(1, "akang", "akang@example.com", "123 Main St", "Admin", 81245546776),
+    new ChildClass(2, "mamuu", "mamuu@example.com", "456 Elm St", "User", 81245546776),
+    new ChildClass(3, "acep", "acep@example.com", "789 Maple St", "Moderator", 81245546776),
 ];
 ?>
 
